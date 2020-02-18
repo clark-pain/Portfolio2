@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f6f6f6;
+}
+
+h1 {
+  font-size: 563%;
+  margin-top: 50px;
+  font-family: 'Sacramento', cursive;
+  color: #163172;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  color: #163172;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  color: #163172;
+}
+
+hr {
+  border: dotted #d6e4f0 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #163172;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f6f6f6;
+}
+
+.top-container {
+  background-color: #d6e4f0;
+  position: relative;
+  padding-top: 50px;
+}
+
+.middle-container {
+  background-color: #f6f6f6;
+}
+
+.bottom-container {
+  background-color: #d6e4f0;
+  padding: 30px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+
+.skill-row  {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto;
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.satellite {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.robot {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.button {
+   border-top: 1px solid #163272;
+   background: #163272;
+   background: -webkit-gradient(linear, left top, left bottom, from(#1e56a0), to(#163272));
+   background: -webkit-linear-gradient(top, #1e56a0, #163272);
+   background: -moz-linear-gradient(top, #1e56a0, #163272);
+   background: -ms-linear-gradient(top, #1e56a0, #163272);
+   background: -o-linear-gradient(top, #1e56a0, #163272);
+   padding: 6px 12px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 16px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
